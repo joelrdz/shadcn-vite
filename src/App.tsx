@@ -1,7 +1,9 @@
+import { Button } from './components/ui/button';
+
 function App() {
   return (
     <div className="grid place-items-center h-screen">
-      <h1>Vite + React</h1>
+      <Button size="lg" variant="outline">Click Me!</Button>
     </div>
   );
 }
